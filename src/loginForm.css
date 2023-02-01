@@ -1,0 +1,67 @@
+.pass{
+    position: relative;
+}
+.eye-icon{
+    width: 1vw;
+    cursor: pointer;
+    position: absolute;
+    top: 34%;
+    right: 2%;
+}
+.form-group{
+    width: 30vw;
+    margin-left: 18vw;
+    border-color: palevioletred;
+}
+.c{
+    text-align: left;
+}
+
+.p{
+    text-align: left;
+}
+.login{
+    text-align: center;
+}
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #f39bd1;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+.button {
+    background-color: #f39bd1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 10px;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+.button::after{
+    background-color: #f39bd1;
+}
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
